@@ -1,8 +1,8 @@
 from fastapi import APIRouter, HTTPException
 from sqlalchemy import select
-from ..models import Seat, BookingSeat
-from ..schemas import SeatOut
-from ..deps import get_session
+from ...models import Seat, BookingSeat
+from ...schemas import SeatOut
+from ...deps import get_session
 
 router = APIRouter()
 
